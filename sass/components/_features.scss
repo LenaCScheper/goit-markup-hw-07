@@ -1,0 +1,26 @@
+.features{
+    display: flex; 
+ }
+ .features__item:not(:first-child){
+     margin-left: 30px;
+ } 
+ .features__icon{
+    display: flex;
+    height: 120px;
+    background-size:contain;
+    background-color: $background-features-color;
+    margin-bottom: 30px; 
+    justify-content: center;
+    align-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.features__title{ 
+    margin-bottom: 10px;
+    color: $title-text-color;
+    line-height: 1.14;
+}
+.features__text { 
+    color: $primary-text-color;
+    line-height: 1.7;
+}

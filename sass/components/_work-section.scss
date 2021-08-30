@@ -1,0 +1,34 @@
+.work-section{
+    padding-top: 0;
+}
+.work-section__title{
+margin-bottom: 50px;
+color: $title-text-color ;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+}
+.work-section__images{
+    display: flex;
+    justify-content: center; 
+    }
+.work-section__picture:not(:first-child){
+     margin-left: 30px;
+   }
+.work-section__thumb{
+    position: relative;
+    display: block;
+
+    & p{
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        width: 370px;
+        line-height: 1.14;
+        text-align: center;
+        padding-top: 27px;
+        text-transform: uppercase;
+        color: $primary-bg-color;
+        background: $background-thumb-color;
+    }
+}   

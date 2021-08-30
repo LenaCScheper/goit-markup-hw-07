@@ -1,0 +1,41 @@
+.comands{
+    background-color: $background-icon-color;
+}
+.comands__title {
+    color: $primary-text-color ; 
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+.comands__info{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.comands__item{
+    display: flex;
+}
+.comands__image{
+    background-color: $primary-bg-color;
+    box-shadow: $shadow-modal;
+    border-radius: 0px 0px 4px 4px;
+
+  &:not(:first-child){
+    margin-left: 30px;
+ }
+}
+.comands__name{
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.comands__proffesion{
+    color: $primary-text-color;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px; 
+}

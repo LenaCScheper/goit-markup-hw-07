@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,IAAI,AAAA,CACA,UAAU,CAAE,UAAU,CACzB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/utils/_placeholder.scss",
+        "../sass/components/_page-header.sccs"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

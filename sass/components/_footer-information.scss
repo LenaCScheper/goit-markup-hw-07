@@ -1,0 +1,81 @@
+.information{
+    background-color: $secondary-bg-color;
+    padding-top: 60px;
+    padding-bottom: 60px;   
+}
+.information__title{
+    font-style: normal;
+    color: $primary-bg-color;
+    line-height: 1.7; 
+}
+ .information__street{
+     color: $primary-bg-color;
+     margin-bottom: 9px;  
+ }
+ .footer__information{
+    color: $footer-information-color;
+    line-height: 1.2;
+    display: block;
+    transition: color $timing-function;
+
+  &:hover,
+  &:focus{
+    color:$accent-color;
+  }
+}
+.information__contact:not(:last-child){
+    margin-bottom: 9px;
+ }
+.connect{
+    display: block;
+    margin-left: 70px;
+}
+.connect__title{
+    display: inline-flex; 
+}
+.connect__link{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+   border-radius: 50%;
+   padding: 10px;
+   background-color: $primary-bg-color;
+   transition: fill $timing-function;
+}
+.connect__item{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-bg-color;
+    margin-bottom: 20px;
+}
+.connect__icon{
+    fill:$primary-bg-color;
+    transition: background-color $timing-function;
+
+    &:hover,
+    &:focus{
+    fill: $primary-bg-color;
+ }
+}
+.connect__link{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $background-link-color;
+    fill: $primary-bg-color;
+    transition: background-color $timing-function;
+
+    &:hover,
+    &:focus{
+    background-color: $accent-color;
+    fill: $primary-bg-color;
+}
+}
+.connect__network:not(:last-child){
+    margin-right: 10px;
+}
