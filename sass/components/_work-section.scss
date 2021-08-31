@@ -3,8 +3,11 @@
 }
 .work-section__title{
 margin-bottom: 50px;
-color: $title-text-color ;
+color: $primary-color ;
+font-weight: $main-font-weight;
+font-family: $main-font;
 font-size: 36px;
+letter-spacing: $main-letter-spacing;
 line-height: 1.2;
 text-align: center;
 }
@@ -20,6 +23,10 @@ text-align: center;
     display: block;
 
     & p{
+        font-weight: $main-font-weight;
+        font-family: $main-font;
+        font-size: $primary-text-size;
+        letter-spacing: $main-letter-spacing;
         position: absolute;
         bottom: 0;
         height: 70px;

@@ -79,3 +79,54 @@
 .connect__network:not(:last-child){
     margin-right: 10px;
 }
+.mail-nav{
+    margin-left: 93px;
+}
+.mail-nav__title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-bg-color;
+    margin-bottom: 20px;
+    }
+    .footer-form__button{
+        font-family: $main-font;
+        color: $primary-bg-color;
+        background-color: $accent-color;
+        letter-spacing: 0.06em;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+        padding: 10px 0px 10px 29px;
+        width: 200px;
+        height: 50px;
+        display:inline-flex;
+        border: none;
+        margin: 0;
+        background-size: contain;
+
+        &::after{
+            content: '';
+            display: inline-flex;
+            margin-left: 10px;
+            width: 24px;
+            height: 24px;
+            background-image: url('../img/svg/icon-send.svg');
+            background-size: contain;
+        }
+}
+.footer-form__input{
+    width: 295px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: $secondary-bg-color;
+    padding: 15px 0px 15px 16px;
+    margin-right: 12px;
+}

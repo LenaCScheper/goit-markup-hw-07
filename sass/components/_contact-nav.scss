@@ -3,6 +3,9 @@
     margin-left: auto;
 }
 .contact-nav__item{
+    font-family: $main-font;
+    font-style: $main-font-weight;
+    font-size: $primary-text-size;
     display: inline-block;
     font-weight: 500;
     line-height: 1.14;

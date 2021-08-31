@@ -7,7 +7,9 @@
     justify-content: center;  
 }
 .filter__item{
-    color: $title-text-color;
+    font-family: $main-font;
+    letter-spacing: $main-letter-spacing;
+    color: $primary-color;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -20,7 +22,8 @@
     }
 }
 .filter__button{
-    color: $title-text-color;
+   
+    color: $primary-color;
     text-align: center;
     border: transparent;
     cursor: pointer;  
@@ -41,7 +44,7 @@
  }
 }
 .filter__button--main{
-    color: $title-text-color;
+    color: $primary-color;
     text-align: center;
     border:  transparent;
     padding-left: 22px;

@@ -6,7 +6,9 @@
     margin-left: 50px;
 }
 .site-nav__link{
-    color: $timing-function;
+    color: $primary-color;
+    font-family: Roboto;
+    font-size: 14px;
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.14;
@@ -14,11 +16,19 @@
     
     &:hover,
     &:focus {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
     color: $accent-color;
      }  
     }
   .site-nav__link--current{
+      font-family: $main-font;
+    font-weight: 500;
+    font-size: $primary-text-size;
+    line-height: 1.14;
     color: $accent-color;
+    letter-spacing: $main-letter-spacing;
     position: relative;
     padding-top: 28px;
     padding-bottom: 28px;

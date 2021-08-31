@@ -16,11 +16,18 @@
     padding-bottom: 25px;
 }
 .features__title{ 
+    font-family: $main-font;
     margin-bottom: 10px;
-    color: $title-text-color;
+    color: $primary-color;
+    font-size: $primary-text-size;
+    font-weight: $main-font-weight;
     line-height: 1.14;
+    letter-spacing: $main-letter-spacing;
 }
 .features__text { 
+    font-family: $main-font;
+    font-size: $primary-text-size;
     color: $primary-text-color;
     line-height: 1.7;
+    letter-spacing: $main-letter-spacing;
 }

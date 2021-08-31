@@ -2,7 +2,10 @@
     background-color: $background-icon-color;
 }
 .comands__title {
-    color: $primary-text-color ; 
+    color: $primary-color ; 
+    font-family: $main-font;
+    font-weight: $main-font-weight;
+    letter-spacing: $main-letter-spacing;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
@@ -26,13 +29,17 @@
  }
 }
 .comands__name{
-    color: $title-text-color;
+    font-family: $main-font;
+    letter-spacing: $main-letter-spacing;
+    color: $primary-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
 }
 .comands__proffesion{
+    font-family: $main-font;
+    letter-spacing: $main-letter-spacing;
     color: $primary-text-color;
     font-size: 16px;
     line-height: 1.2;

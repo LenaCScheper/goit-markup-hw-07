@@ -2,10 +2,12 @@
     display: flex;
 }
 .clients__title{
+    font-family: $main-font;
+    letter-spacing: $main-letter-spacing;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: $title-text-color;
+    color: $primary-color;
     margin-bottom: 50px;
 }
 .clients__link{
