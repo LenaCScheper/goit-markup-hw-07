@@ -345,6 +345,7 @@ textarea {
 }
 
 .modal-form__title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -355,6 +356,7 @@ textarea {
 }
 
 .modal-form__label {
+  font-family: Roboto, sans-serif;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -419,6 +421,7 @@ textarea {
 }
 
 .modal-form__comment {
+  font-family: Roboto, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,6 +437,7 @@ textarea {
 }
 
 .modal-form__comment-placeholder {
+  font-family: Roboto, sans-serif;
   height: 120px;
   padding-top: 16px;
   padding-left: 12px;
@@ -501,6 +505,8 @@ textarea {
 }
 
 .modal-form__policy {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
   color: #757575;
   font-weight: normal;
   font-size: 14px;
@@ -508,6 +514,8 @@ textarea {
 }
 
 .modal-form__conditions {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 24px;
   color: #2196f3;

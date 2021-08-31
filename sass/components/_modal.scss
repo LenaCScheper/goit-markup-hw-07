@@ -55,15 +55,17 @@
       padding: 40px;
   }
   .modal-form__title{
-    font-weight: 700;
+    font-family: $main-font;
+    font-weight: $main-font-weight;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: $main-letter-spacing;
     color: $primary-color;
     margin-bottom:12px;
 }
 .modal-form__label{
+    font-family: $main-font;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -94,6 +96,7 @@
     }
     }
     .modal-form__comment{
+        font-family: $main-font;
         display: flex;
         flex-direction: column;
         font-size: 12px;
@@ -103,6 +106,7 @@
         margin-bottom: 4px;
     }
     .modal-form__comment-placeholder{ 
+        font-family: $main-font;
         height: 120px;
         padding-top: 16px;
         padding-left: 12px;
@@ -158,13 +162,17 @@
     }
   }
   .modal-form__policy{
+      font-family: $main-font;
+      letter-spacing: $main-letter-spacing;
     color: $primary-text-color;
     font-weight: normal;
-    font-size: 14px;
+    font-size: $primary-text-size;
     line-height: 1.7;
 }
-.modal-form__conditions{  
-    font-size: 14px;
+.modal-form__conditions{ 
+    font-family: $main-font; 
+    letter-spacing: $main-letter-spacing;
+    font-size: $primary-text-size;
     line-height: 24px;
     color: $accent-color;
     margin-left: 4px;
