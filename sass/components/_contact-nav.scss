@@ -16,6 +16,7 @@
     }
 }
 .contact-nav__title{
+    font-family: $main-font;
     display: flex;
     align-items: center;
     transition: fill $timing-function;
