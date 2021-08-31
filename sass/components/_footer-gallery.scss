@@ -42,11 +42,11 @@
     opacity: 0;
     transform: translateY(100%);
     transition: transform 250ms linear;
-    color: var(--primary-bg-color);
+    color: $primary-bg-color;
     background: rgba(33, 150, 243, 0.9);
 }
 .gallery__title{
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -57,3 +57,11 @@
     overflow: hidden;
     position: relative;
 }
+.gallery__text{
+    color: $primary-bg-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2;
+ }
+ 
